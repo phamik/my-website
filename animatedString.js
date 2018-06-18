@@ -96,7 +96,7 @@
   // var messenger2 = new Messenger($('#messenger2'), 'and I am a developer');
 
   setTimeout(function first(){
-    var messenger1 = new Messenger($('#messenger1'), 'My name is Tien');
+    var messenger1 = new Messenger($('#messenger1'), 'My name is Tien,');
   }, 1000);
 
   setTimeout(function first(){
