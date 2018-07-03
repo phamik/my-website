@@ -100,7 +100,7 @@
   }, 1000);
 
   setTimeout(function first(){
-    var messenger2 = new Messenger($('#messenger2'), 'and I am a developer');
+    var messenger2 = new Messenger($('#messenger2'), 'and I am a developer.');
   }, 2000);
 
   

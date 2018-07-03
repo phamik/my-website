@@ -28,15 +28,13 @@
     <!-- animate.css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
-    <!-- particles.js -->
-     <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-     <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
 
     <title>Tien Pham</title>
 </head>
 
 <body>
-    <div class="container-fluid mt-5 pt-5">
+    <div id="particles-js">
+    <!-- <div class="container-fluid mt-5 pt-5"> -->
         <!-- <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -62,25 +60,25 @@
                     <div id="animated-text-container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <div id="messenger" class="animated-text"></div>
+                                <h1 id="messenger" class="animated-text"></h1>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div id="messenger1" class="animated-text"></div>
+                                <h1 id="messenger1" class="animated-text"></h1>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12">
-                                <div id="messenger2" class="animated-text"></div>
+                                <h1 id="messenger2" class="animated-text"></h1>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 text-under">
-                                    <span class="animated bounceIn text-under-animation">Front-End Development,</span>
-                                    <span class="animated bounceInLeft text-under-animation1">React JS,</span>
-                                    <span class="animated bounceInRight text-under-animation2">JavaScript,</span>
-                                    <span class="animated bounceInUp text-under-animation3">Web Design</span>
+                                    <h4 class="animated bounceIn text-under-animation">Front-End Development,</h4>
+                                    <h4 class="animated bounceInLeft text-under-animation1">React JS,</h4>
+                                    <h4 class="animated bounceInRight text-under-animation2">JavaScript,</h4>
+                                    <h4 class="animated bounceInUp text-under-animation3">Web Design</h4>
                             </div>
                         </div>
                     </div>
@@ -111,7 +109,7 @@
                     </div>   -->
             </div>
             
-    </div>
+    <!-- </div> -->
 
 
 
@@ -132,18 +130,13 @@
         </div>
 
     </nav>
-
-    <div id="particles-js"></div>
-
-    <script src="particles.js"></script>
+    </div>
    
+    <script type="text/javascript" src="particles.js"></script>
+    <script type="text/javascript" src="app.js"></script>
     <script src="animatedString.js"></script>
 
-    <script>
-        particlesJS.load('particles-js', 'particles.js', function() {
-        console.log('callback - particles.js config loaded');
-        });
-    </script>
+
 </body>
 
 </html>
