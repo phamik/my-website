@@ -95,7 +95,7 @@ body {
 
 .text-under-animation {
   padding-left: 20px;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 4s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -103,7 +103,7 @@ body {
 
 .text-under-animation1 {
   padding-left: 20px;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 5s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -111,7 +111,7 @@ body {
 
 .text-under-animation2 {
   padding-left: 20px;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: 6s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -119,7 +119,7 @@ body {
 
 .text-under-animation3 {
   padding-left: 20px;
-  -webkit-animation-delay: 6s;
+  -webkit-animation-delay: 7s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;

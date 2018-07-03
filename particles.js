@@ -48,7 +48,7 @@ var pJS = function(tag_id, params){
         }
       },
       size: {
-        value: 2,
+        value: 2, 
         random: true,
         anim: {
           enable: false,
