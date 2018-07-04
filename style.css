@@ -4,8 +4,9 @@ body {
   height: 100%;
   font-family: monospace !important;
   overflow: hidden;
-  margin: 0px;
-  padding: 0px;
+  /* margin: 0px;
+  padding: 0px; */
+  /* display: flex; */
 
 } 
 
@@ -30,6 +31,10 @@ body {
     white-space: nowrap;
     text-shadow: 0 2px 2px rgba(#000, 0.9);
   }
+
+  .footer {
+    position: relative;
+  }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -44,6 +49,10 @@ body {
     /* font-size: 60px; */
     white-space: nowrap;
     text-shadow: 0 2px 2px rgba(#000, 0.9);
+  }
+
+  .footer {
+    position: fixed;
   }
 }
 
@@ -64,6 +73,12 @@ body {
     padding-top: 3.5rem;
     font-size: 20px;
   }
+
+  .footer {
+    position: fixed;
+  
+  }
+
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
@@ -83,6 +98,10 @@ body {
     padding-top: 3.5rem;
     font-size: 20px;
   }
+
+  .footer {
+    position: fixed;
+  }
 }
 
 #animated-text-container {
@@ -95,7 +114,7 @@ body {
 
 .text-under-animation {
   padding-left: 20px;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 4s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -103,7 +122,7 @@ body {
 
 .text-under-animation1 {
   padding-left: 20px;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 5s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -111,7 +130,7 @@ body {
 
 .text-under-animation2 {
   padding-left: 20px;
-  -webkit-animation-delay: 5s;
+  -webkit-animation-delay: 6s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -119,7 +138,7 @@ body {
 
 .text-under-animation3 {
   padding-left: 20px;
-  -webkit-animation-delay: 6s;
+  -webkit-animation-delay: 7s;
   display: inline-block;
   /* font-size: 1.75rem; */
   font: monospace !important;
@@ -135,6 +154,15 @@ body {
 }
 
 /* ============footer social icons=========== */
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 
 .social:hover {
   -webkit-transform: scale(1.1);
@@ -173,6 +201,8 @@ body {
 #social-em:hover {
   color: #f39c12;
 }
+
+
 
 /* ==============PORTFOLIO================ */
 
